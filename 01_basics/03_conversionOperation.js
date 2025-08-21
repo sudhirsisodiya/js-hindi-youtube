@@ -16,12 +16,48 @@ null=0
 undefined=NaN
  */
 
-let isLoggedIn=""
+let isLoggedIn=1
 let booleanIsLoggedIn=Boolean(isLoggedIn);
-console.log(typeof booleanIsLoggedIn);
-console.log(booleanIsLoggedIn);
+// console.log(typeof booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn);
 
 // 1 == boolean/true
 // 0==boolean/false
 //""==boolean/false
 //"hitesh"==boolean/true;
+
+let someNumber="33"
+let someNumberString=String(someNumber)
+// console.log(typeof someNumberString);
+// console.log(someNumberString);
+
+//***************************************** Operators ******************************************************* */
+
+let str1="sudhir "
+let str2="sisodiya"
+// console.log(str1+str2);
+
+// console.log(2>=1);          // true
+// console.log(5==5);          // true
+// console.log(25>10);         // true
+// console.log(null==0);       // false
+// console.log(null>=0);       // true
+// console.log(null<=0);       // true
+// console.log(null!=0);       // true
+
+
+// console.log(undefined==0);       // false
+// console.log(undefined>=0);       // false
+// console.log(undefined<=0);       // false
+// console.log(undefined!=0);       // true
+
+// console.log(2**3);                  // 2*2*2=8
+// console.log(+true);                 // 1
+// console.log(-true);                 // -1
+// console.log(+false);                // 0
+// console.log(-false);                // -0
+
+// console.log(null==null);                // true
+// console.log(undefined==undefined);      // true
+// console.log(null==undefined);           // true
+
