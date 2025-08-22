@@ -40,3 +40,26 @@ const myFunction=function(){
 
  myFunction();
  console.log(typeof myFunction);
+
+ //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //stack(Primitive data).  // Heap(Non-Primitive data),
+
+ let myYoutubname="user1.y.com"
+ let anotherName=myYoutubname
+ anotherName="sudhir123.y.com"
+
+console.log(myYoutubname)
+console.log(anotherName)
+
+let userOne={
+    Email:"sudhir@gmail.com",
+    url:"9231@ybl"
+}
+
+let userTwo=userOne
+
+userTwo.Email="user2@gmail.com"
+
+console.log(userOne.Email)
+console.log(userTwo.Email)
