@@ -56,4 +56,41 @@ users[0].email
 // console.log(Object.entries(tinderUser));
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedin'));
+// console.log(tinderUser.hasOwnProperty('isLoggedin'));
+
+
+// Destructuring of objects
+const course={
+    courseName:"Js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+// console.log(course.courseInstructor);        // each time this formate used so , its not a good practice
+
+// destructure
+const{courseInstructor}=course
+// console.log(courseInstructor);
+
+const{courseInstructor:Instructor}=course
+// console.log(Instructor);
+
+// const navbar=({company})=>{
+
+// }
+// navbar(company="hitesh");
+// console.log(company);
+
+// {       // Json file = json file in the form of objects or array. it is used for api's
+
+//     "name":"sudhir",
+//     "id":"12345",
+//     "isLoggedin":false,
+
+// }
+
+[
+    {},
+    {},
+    {}
+]
