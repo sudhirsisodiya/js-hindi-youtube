@@ -30,4 +30,39 @@ function userLoggin(username){
     }
     return `${username} just logged in`;
 }
-console.log(userLoggin());
+// console.log(userLoggin());
+
+function calculateCarPrice(...num1){
+    return num1;
+}
+
+// console.log(calculateCarPrice(200,400,600,2000));
+
+const user={
+    username:"sudhir",
+    price:2000
+}
+
+function handleObject(anyobject){
+    console.log(`username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+
+// handleObject(user)
+
+handleObject(
+    {
+        username:"hitesh",
+        price:5000
+    }
+)
+
+const myArray=[200,400,600]
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+// console.log(returnSecondValue(myArray));
+
+console.log(returnSecondValue([200,500,300]));
